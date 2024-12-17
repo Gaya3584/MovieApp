@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/bgout"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout
-        android:gravity="center"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:orientation="vertical"
-        android:background="#3C9FB8">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/baseline_laptop_mac_24"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,5 +49,4 @@
             android:text="Login"
             android:textColor="#000"
             android:background="#CABB2B"/>
-    </LinearLayout>
 </LinearLayout>
