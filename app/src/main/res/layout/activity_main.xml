@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:text="Log In"
             android:gravity="center"
-            android:textSize="40dp"
+            android:textSize="30dp"
             android:textColor="#000"/>
         <TextView
             android:layout_width="match_parent"
@@ -28,7 +28,8 @@
             android:layout_height="wrap_content"
             android:hint="Enter Username"
             android:textColor="#000"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:drawableLeft="@drawable/baseline_account_circle_24"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,10 +40,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter password"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/baseline_key_24"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/bt1"
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="Login"
             android:textColor="#000"
